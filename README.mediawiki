@@ -1,4 +1,4 @@
-=== KinderThek - A german media channel for kids for Plex ===
+=== KinderThek - A german Plex media channel for kids  ===
 
 ''What can this channel do for you?''
 This channel streams content for kids from several german media websites directly to your plex devices.
