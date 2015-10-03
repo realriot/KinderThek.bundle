@@ -1,0 +1,14 @@
+[
+        {
+		"id":		"enable_sesamstrasse",
+		"label":	"Sesamstrasse",
+		"type":		"bool",
+		"default":	"true",
+	},
+	{
+		"id":		"enable_kikaninchen",
+		"label":	"Kikaninchen",
+		"type":		"bool",
+		"default":	"true",
+	},
+]
