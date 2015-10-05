@@ -15,3 +15,4 @@ Thanks in advance
 
 === Latest notes ===
 * Initial release with Sesamstrasse and Kikaninchen
+* Added Disneychannel with a view: 7 days back

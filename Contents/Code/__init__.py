@@ -1,6 +1,7 @@
 import base64, simplejson, time, datetime, re
 from mod_sesamstrasse import *
 from mod_kikaninchen import *
+from mod_disneychannel import *
 json = simplejson
 
 # Static text. 
@@ -39,6 +40,9 @@ def MainMenu():
 	if Prefs['enable_kikaninchen'] == True:
 		count = count + 1
 		oc.add(DirectoryObject(key=Callback(kikaninchenShow), title='Kikaninchen', thumb=ICON_FOLDER))
+	if Prefs['enable_disneychannel'] == True:
+		count = count + 1
+		oc.add(DirectoryObject(key=Callback(disneychannelShow), title='Disneychannel', thumb=ICON_FOLDER))
 
 	if count == 0:
 		oc.header = 'Fehler' 
