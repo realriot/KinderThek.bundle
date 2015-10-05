@@ -11,4 +11,10 @@
 		"type":		"bool",
 		"default":	"true",
 	},
+	{
+		"id":		"enable_disneychannel",
+		"label":	"Disneychannel",
+		"type":		"bool",
+		"default":	"true",
+	},
 ]
